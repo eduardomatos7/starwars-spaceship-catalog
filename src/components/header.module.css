@@ -1,0 +1,22 @@
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    gap: 5rem;
+
+}
+.header ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.navs {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.active {
+    color: yellow;
+    text-decoration: none;
+}
