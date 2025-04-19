@@ -6,6 +6,7 @@
   cursor: pointer;
   padding: .5rem 2rem;
   max-width: 9rem;
+  transition: all .3s ease-out;
 }
 
 .contentTitleBtn {
@@ -35,7 +36,7 @@
   transition: all .2s ease;
 }
 
-.naveHover:hover {
+.naveHover:hover, .btnBottom:hover {
   cursor: pointer;
   background-color: #2d2d2d;
   user-select: none;
@@ -64,6 +65,12 @@
   }
   & .imageSpaceship{
     object-fit: contain;
-    width: 100%;
   }
+  & .description {
+    height: 5rem;
+  }
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
 }
