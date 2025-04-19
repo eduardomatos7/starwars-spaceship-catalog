@@ -1,4 +1,4 @@
-.btnSeeAll {
+.btnSeeAll, .btnBottom {
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: .3rem;
@@ -24,7 +24,7 @@
   margin-bottom: 2rem;
 }
 
-.spaceship {
+.spaceship{
   background-color: transparent;
   padding: .5rem 2rem;
   width: 14rem;
@@ -44,4 +44,26 @@
 .spaceship h3 {
   font-weight: 300;
   font-size: .8rem;
+}
+.containerBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.spaceshipContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  & p {
+    font-size: .7rem;
+  }
+  & .contentImage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  & .imageSpaceship{
+    object-fit: contain;
+    width: 100%;
+  }
 }
