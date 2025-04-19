@@ -6,6 +6,11 @@
     gap: 5rem;
 
 }
+.title {
+    color: yellow;
+    margin: 1rem 0;
+} 
+
 .header ul {
     display: flex;
     gap: 1rem;

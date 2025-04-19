@@ -11,12 +11,9 @@
 .contentTitleBtn {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  margin-top: 2rem;
+  gap: 1rem;
   justify-content: center;
-  & > h2{
-    color: yellow;
-  }
+
 }
 
 .spaceshipsContent {
@@ -28,11 +25,20 @@
 }
 
 .spaceship {
+  background-color: transparent;
   padding: .5rem 2rem;
   width: 14rem;
   border: 1px solid #fff;
   border-radius: .4rem;
   text-align: left;
+  color: white;
+  transition: all .2s ease;
+}
+
+.naveHover:hover {
+  cursor: pointer;
+  background-color: #2d2d2d;
+  user-select: none;
 }
 
 .spaceship h3 {
