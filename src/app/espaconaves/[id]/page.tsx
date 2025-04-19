@@ -20,6 +20,7 @@ function Spaceship() {
     function handlePrev() {
       router.push(`/espaconaves/${+params.id! - 1}`)
     }
+    if (!spaceship) return <h2 style={{marginTop: "2rem"}}>Nave não encontrada</h2>
 
   return (
     <>
