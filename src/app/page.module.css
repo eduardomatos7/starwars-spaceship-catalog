@@ -1,0 +1,41 @@
+.btnSeeAll {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: .3rem;
+  color: #fff;
+  cursor: pointer;
+  padding: .5rem 2rem;
+  max-width: 9rem;
+}
+
+.contentTitleBtn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+  & > h2{
+    color: yellow;
+  }
+}
+
+.spaceshipsContent {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.spaceship {
+  padding: .5rem 2rem;
+  width: 14rem;
+  border: 1px solid #fff;
+  border-radius: .4rem;
+  text-align: left;
+}
+
+.spaceship h3 {
+  font-weight: 300;
+  font-size: .8rem;
+}
